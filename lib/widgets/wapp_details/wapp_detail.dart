@@ -20,9 +20,7 @@ class WappDetail extends StatelessWidget {
             height: 30,
           ),
           Text(
-            'KindSprout is a user-friendly donation platform designed to make giving easy, impactful, and meaningful. Connect with causes you care about, contribute effortlessly, and watch your generosity grow into positive change. Together, we shall nurture kindness and build a better world.',
-            style: TextStyle(fontSize: 21, height: 1.7),
-          )
+              'KindSprout is a user-friendly donation platform designed to make giving easy, impactful, and meaningful.')
         ],
       ),
     );
