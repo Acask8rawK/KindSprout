@@ -75,7 +75,7 @@ class _DonateViewState extends State<DonateView> {
             children: [
               SizedBox(height: 40),
               Text(
-                "Welcome to DonateNow!",
+                "Welcome to KindSprout!",
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
@@ -179,7 +179,10 @@ class _DonateViewState extends State<DonateView> {
                           ),
                         ),
                         child: Center(
-                          child: Text("Donate Now"),
+                          child: Text(
+                            "Donate Now",
+                            style: TextStyle(color: Colors.white), // White text
+                          ),
                         ),
                       ),
                     ],
