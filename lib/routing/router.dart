@@ -3,6 +3,7 @@ import 'package:flutter/widgets.dart';
 import 'package:kind_sprout/routing/route_names.dart';
 import 'package:kind_sprout/views/about/about_view.dart';
 import 'package:kind_sprout/views/contacts/contacts_view.dart';
+import 'package:kind_sprout/views/donate_now/donate_now.dart';
 import 'package:kind_sprout/views/home/home_view.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
@@ -13,6 +14,8 @@ Route<dynamic> generateRoute(RouteSettings settings) {
       return _getPageRoute(AboutView());
     case ContactsRoute:
       return _getPageRoute(ContactsView());
+    case DonateRoute:
+      return _getPageRoute((DonateView()));
     default:
       return _getPageRoute(HomeView());
   }
